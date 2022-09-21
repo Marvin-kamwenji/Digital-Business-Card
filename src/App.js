@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
   return (
-
+<div className="allbody">
   <div class="card rounded-2" >
       <img class="card-img-top" src={marvImage} alt="Card cap" />
 
@@ -15,8 +15,13 @@ function App() {
         </div>
        <div class="card-body">
         <div className="buttons">
-          <button className="emailButton rounded-2"><FontAwesomeIcon icon="fa-regular fa-envelope" />Email</button>
-          <button className="linkedInButton rounded-2"><i class="fab fa-twitter fa-lg"></i>LinkedIn</button>
+          <button className="emailButton rounded-2"><i class="fa fa-envelope-open" aria-hidden="true"></i>
+              Email
+          </button>
+          <button className="linkedInButton rounded-2"><i class="fa-brands fa-linkedin-in"></i>
+
+              LinkedIn
+          </button>
         </div>
         
         <div>
@@ -35,12 +40,14 @@ function App() {
 
       <div className="card-footer">
 
+      
         {/* Twitter  */}
         <i class="fab fa-facebook-f fa-lg"></i>
 
         <i class="bi bi-instagram"></i>
 
       </div>
+ </div>
 </div>
   );
 }
