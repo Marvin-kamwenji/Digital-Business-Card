@@ -47,7 +47,7 @@
 
 
 .card {
-  width: 450px;
+  width: 400px;
   background-color: #1A1B21;
   margin: 0 auto;
 }
@@ -91,7 +91,7 @@
   background-color: #FFFFFF;
   color: #374151;
   border-radius: 4px;
-  width: 150px;
+  width: 130px;
   height: 50px;
 
 }
@@ -105,9 +105,9 @@
   background-color: #5093E2;
   color: #FFFFFF;
   border-radius: 4px;
-  width: 150px;
+  width: 130px;
   height: 50px;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .card-footer {
