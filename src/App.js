@@ -7,15 +7,16 @@ function App() {
 
   return (
 <div className="allbody">
-  <div class="card rounded-2" >
-      <img class="card-img-top" src={marvImage} alt="Card cap" />
+  <div className="card rounded-2 " >
+      <img className="card-img-top" src={marvImage} alt="Card cap" />
 
-        <div class="card-body">
-            <h5 class="card-title"> Marvin Kamwenji Murage</h5>
-            <p class="card-subtitle">Software Engineer and Quality Assurance</p>
-            <p class="card-text"></p>
+        <div className="card-body">
+            <h5 className="card-title"> Marvin Kamwenji Murage</h5>
+            <p className="card-subtitle">Software Engineer | Quality Assurance</p>
+            <p className="card-subtitle">UI/UX Designer | Network Engineer</p>
+            <p className="card-text"></p>
         </div>
-       <div class="card-body">
+       <div className="card-body">
         <div className="buttons">
           <a href="mailto:marvinkamwenjih@gmail.com">
             <button className="emailButton rounded-2"><SocialIcon network="email" style={{ height: 25, width: 25 }} />
@@ -57,9 +58,6 @@ function App() {
         {/* GITHUB */}
 
         <SocialIcon className="GithubFooter" url="https://github.com/Marvin-kamwenji" fgColor='1A1B21' bgColor='#D8D8D8'/>
-
-
-        <i class="bi bi-instagram"></i>
 
       </div>
  </div>
